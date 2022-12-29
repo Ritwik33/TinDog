@@ -5,7 +5,7 @@ body {
 #title {
     background-color: #ff4c68;
     color: white;
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 
 h1 {
@@ -26,6 +26,10 @@ h3 {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5rem;
     font-weight: bold;
+}
+
+p {
+    color: #8f8f8f;
 }
 
 a {
@@ -62,18 +66,23 @@ a {
 /* title image */
 
 .title-image {
-    width: 60%;
+    width: 22%;
     transform: rotate(25deg);
     -webkit-transform: rotate(25deg);
     -moz-transform: rotate(25deg);
     -ms-transform: rotate(25deg);
     -o-transform: rotate(25deg);
+    position: absolute;
+    right: 25%;
 }
 
 /* features section */
 
 #features {
     padding: 8% 16%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
 }
 
 .feature {
@@ -82,7 +91,6 @@ a {
 
 .feature-desc {
     padding: 0 10%;
-    color: #8f8f8f;
 }
 
 .feature-icon {
@@ -125,4 +133,65 @@ a {
 .press-logo {
     width: 15%;
     margin: 20px 20px 50px;
+}
+
+/* pricing section */
+
+#pricing {
+    padding: 6.25rem;
+    text-align: center;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+@media (max-width: 1075px) {
+
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+        -webkit-transform: rotate(0);
+        -moz-transform: rotate(0);
+        -ms-transform: rotate(0);
+        -o-transform: rotate(0);
+        width: 60%;
+    }
+
+}
+
+/* download section */
+
+#download {
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 5% 8%;
+    color: white;
+}
+
+.download-section-desc {
+    font-weight: 900;
+    font-size: 4rem;
+}
+
+/* footer section */
+
+#contact {
+    background-color: #fff;
+    text-align: center;
+    padding: 8%;
+}
+
+.social-media-icon {
+    margin: 20px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.social-media-icon:hover {
+    color: #ff4c68;
 }
