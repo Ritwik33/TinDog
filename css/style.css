@@ -146,24 +146,6 @@ a {
     padding: 3% 2%;
 }
 
-@media (max-width: 1075px) {
-
-    #title {
-        text-align: center;
-    }
-
-    .title-image {
-        position: static;
-        transform: rotate(0);
-        -webkit-transform: rotate(0);
-        -moz-transform: rotate(0);
-        -ms-transform: rotate(0);
-        -o-transform: rotate(0);
-        width: 60%;
-    }
-
-}
-
 /* download section */
 
 #download {
@@ -195,3 +177,24 @@ a {
 .social-media-icon:hover {
     color: #ff4c68;
 }
+
+/* media queries */
+
+@media (max-width: 1075px) {
+
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+        -webkit-transform: rotate(0);
+        -moz-transform: rotate(0);
+        -ms-transform: rotate(0);
+        -o-transform: rotate(0);
+        width: 60%;
+    }
+
+}
+
